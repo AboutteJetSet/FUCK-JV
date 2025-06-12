@@ -4,7 +4,7 @@ import sys
 pygame.init()
 
 # sdsss
-largura, altura = 1200, 850
+largura, altura = 1200, 800
 tela = pygame.display.set_mode((largura, altura))
 pygame.display.set_caption("SPRA8")
 
