@@ -3,8 +3,8 @@ import sys
 
 pygame.init()
 
-# Tela
-largura, altura = 1200, 800
+# sdsss
+largura, altura = 1200, 850
 tela = pygame.display.set_mode((largura, altura))
 pygame.display.set_caption("SPRA8")
 
@@ -127,7 +127,7 @@ class Inimigo:
         self.frames = carregar_frames_inimigo()
         self.frame_index = 0
         self.timer = 0
-        self.intervalo = 500  # milissegundos
+        self.intervalo = 500  # asd
         self.x = x
         self.y = y
         self.largura = self.frames[0].get_width()
@@ -274,7 +274,7 @@ def main_game(estilo):
     sprite_inimigo = pygame.image.load("SPRA8/spritees/personas/SPRITE LOW KICK.png").convert_alpha()
     inimigo_frames = []
 
-    inimigo_escala = 0.5  # Reduz o tamanho do inimigo
+    inimigo_escala = 0.6  # Reduz o tamanho do inimigo
     frame_height = sprite_inimigo.get_height() // 2
     frame_width = sprite_inimigo.get_width()
 
@@ -378,3 +378,5 @@ def main_game(estilo):
 menu_principal()
 estilo_escolhido = tela_menu()
 main_game(estilo_escolhido)
+
+#// FUCK JÔAO VITOR FUCK
